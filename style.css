@@ -17,15 +17,20 @@ ul {
     background-color: #1F2937;
 }
 
-.header {
+header {
     display: flex;
 
+}
+
+.quote {
+    background-color: #E5E7EB;
 }
 
 .call-to-action {
     color: white;
 }
 
-.footer {
+footer {
     color: white;
+    background-color: #1F2937;
 }
