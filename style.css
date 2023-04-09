@@ -2,6 +2,17 @@
 
 body {
     font-family: Roboto, sans-serif;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero,
+.information,
+.quote,
+.call-to-action {
+    padding: 10%;
 }
 
 ul {
@@ -12,14 +23,14 @@ ul {
     padding: 0;
 }
 
-.hero {
+.hero,
+footer {
     color: white;
     background-color: #1F2937;
 }
 
 header {
     display: flex;
-
 }
 
 .quote {
@@ -31,6 +42,9 @@ header {
 }
 
 footer {
-    color: white;
-    background-color: #1F2937;
+    padding: 2.5% 10%;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
