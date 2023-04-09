@@ -8,19 +8,15 @@ body {
     flex-direction: column;
 }
 
-.hero,
-.information,
-.quote,
-.call-to-action {
-    padding: 10%;
-}
-
 ul {
     list-style-type: none;
     display: flex;
     gap: 16px;
     margin: 0 0 0 auto;
     padding: 0;
+    align-items: center;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .hero,
@@ -31,6 +27,57 @@ footer {
 
 header {
     display: flex;
+    padding: 16px 0px;
+    text-align: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.hero {
+    padding: 0 10%;
+}
+
+.awesome {
+    margin: 64px 0;
+    display: flex;
+}
+
+.modal {
+    flex: 1;
+    padding: 8px;
+}
+
+.modal .header {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.modal .text {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 8px 0 16px;
+}
+
+button {
+    background-color: #3882F6;
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: white;
+}
+
+.modal button {
+    border: none
+}
+
+img {
+    flex: 1;
+    width: 350px;
+    height: auto;
 }
 
 .quote {
@@ -41,10 +88,12 @@ header {
     color: white;
 }
 
+.call-to-action button {
+    border-color: white;
+}
+
 footer {
     padding: 2.5% 10%;
     margin-top: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
