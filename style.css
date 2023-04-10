@@ -11,7 +11,7 @@ body {
 
 section {
     padding: 0 12%;
-    flex: 1 1 150px;
+    flex: 1;
 }
 
 ul {
@@ -48,6 +48,12 @@ header {
     display: flex;
 }
 
+.awesome img {
+    flex: 1;
+    width: 380px;
+    height: auto;
+}
+
 .modal {
     flex: 1;
     padding: 8px 64px 8px 0;
@@ -76,14 +82,12 @@ button {
     border: none
 }
 
-img {
-    flex: 1;
-    width: 380px;
-    height: auto;
+.information {
+    text-align: center;
 }
 
-.information {
-    text-align: c;
+.information .container {
+    padding: 2.5% 0 5%;
 }
 
 .information .header {
@@ -115,12 +119,23 @@ img {
     align-items: center;
 }
 
+.quote .container {
+    display: flex;
+    flex-direction: column;
+    padding: 2.5% 0 5%;
+}
 
 .quote .text {
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
     color: #1F2937;
+    max-width: 780px;
+}
+
+.quote .author {
+    align-self: flex-end;
+    margin-right: 20px;
 }
 
 .call-to-action {
