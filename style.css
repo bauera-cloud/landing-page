@@ -43,19 +43,17 @@ header {
     font-weight: bold;
 }
 
-.awesome {
-    margin-top: 64px;
+.hero>.container {
+    padding: 10% 0;
     display: flex;
 }
 
-.awesome img {
-    flex: 1;
-    width: 380px;
+img {
+    width: 400px;
     height: auto;
 }
 
 .modal {
-    flex: 1;
     padding: 8px 64px 8px 0;
 }
 
@@ -63,30 +61,37 @@ header {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    max-width: 400px;
 }
 
 .modal .text {
     font-size: 18px;
     color: #E5E7EB;
     padding: 8px 0 16px;
+    max-width: 500px;
+}
+
+.modal>.image {
+    margin: 0 20%;
 }
 
 button {
     background-color: #3882F6;
-    padding: 8px 16px;
+    padding: 10px 28px;
     border-radius: 8px;
     color: white;
 }
 
-.modal button {
-    border: none
+.modal>button {
+    border: none;
+    font-weight: bold;
 }
 
 .information {
     text-align: center;
 }
 
-.information .container {
+.information>.container {
     padding: 2.5% 0 5%;
 }
 
@@ -119,10 +124,10 @@ button {
     align-items: center;
 }
 
-.quote .container {
+.quote>.container {
     display: flex;
     flex-direction: column;
-    padding: 2.5% 0 5%;
+    padding: 7.5% 0 6%;
 }
 
 .quote .text {
@@ -142,8 +147,43 @@ button {
     color: white;
 }
 
+.call-to-action .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10% 0;
+}
+
+.call-to-action .block {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+
+
 .call-to-action button {
-    border-color: white;
+    border: 1px solid white;
+}
+
+.block .tbox {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    padding: 50px 70px;
+}
+
+.tbox>.text {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.block .bbox {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 footer {
