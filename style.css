@@ -43,18 +43,26 @@ header {
     font-weight: bold;
 }
 
+
 .hero>.container {
+    height: 250px;
     padding: 10% 0;
     display: flex;
     justify-content: space-between;
 }
 
-img {
-    width: 400px;
+.image {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.image img {
     height: auto;
 }
 
 .modal {
+    flex: 1;
     padding: 8px 64px 8px 0;
 }
 
