@@ -46,7 +46,7 @@ header {
 
 .hero>.container {
     height: 250px;
-    padding: 10% 0;
+    padding: 5% 0 8% 0;
     display: flex;
     justify-content: space-between;
 }
